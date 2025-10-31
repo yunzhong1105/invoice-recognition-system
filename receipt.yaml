@@ -1,0 +1,9 @@
+path: /home/yunzhong1105/Dataset/clut/yolov10/split_dataset
+train: images/train  # 或直接用 '.' 如果所有圖片都在根目錄
+val: images/val      # 或指定驗證集資料夾
+test:                # 可選
+
+names:
+  0: Invoice
+  1: Receipt
+  # ...依你的類別補齊
