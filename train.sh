@@ -36,12 +36,19 @@ run_training() {
 # run_training "yolov10m.pt" 200 1280 4
 # run_training "yolov10m.pt" 300 1280 4
 
+run_training "yolov10b.pt" 100 640 16
+# run_training "yolov10b.pt" 200 640 16
+# run_training "yolov10b.pt" 300 640 16
+# run_training "yolov10b.pt" 100 1280 4
+# run_training "yolov10b.pt" 200 1280 4
+# run_training "yolov10b.pt" 300 1280 4
+
 # run_training "yolov10l.pt" 100 640 8
 # run_training "yolov10l.pt" 200 640 8
 # run_training "yolov10l.pt" 300 640 8
 # run_training "yolov10l.pt" 100 640 16
 # run_training "yolov10l.pt" 200 640 16
 # run_training "yolov10l.pt" 300 640 16
-run_training "yolov10l.pt" 100 1280 4
+# run_training "yolov10l.pt" 100 1280 4
 # run_training "yolov10l.pt" 200 1280 4
 # run_training "yolov10l.pt" 300 1280 4

@@ -1,0 +1,1 @@
+yolo detect predict model=/home/yunzhong1105/yolov10/runs/detect/v10b-640-16_1102-1805/weights/best.pt source="/home/yunzhong1105/Dataset/clut/full_yolov10/images/test" imgsz=1280 conf=0.25 save=True save_txt=True save_conf=True
